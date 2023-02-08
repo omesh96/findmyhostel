@@ -2,7 +2,8 @@ import axios from "axios"
 import { useContext } from "react"
 
 export const adduserdata=(data)=>{
-    return axios.post(`http://localhost:3008/userdata`,{
+   
+    return axios.post(`https://backend1-three.vercel.app/userdata`,{
         name:data.name,
         email:data.email,
         password:data.password,
@@ -10,11 +11,11 @@ export const adduserdata=(data)=>{
     })
  }
  export const getuserdata=()=>{
-    return axios.get(`http://localhost:3008/userdata`)
+    return axios.get(`https://backend1-three.vercel.app/userdata`)
  }
 
  export const addadmindata=(data)=>{
-    return axios.post(`http://localhost:3008/admindata`,{
+    return axios.post(`https://backend1-three.vercel.app/admindata`,{
         name:data.name,
         email:data.email,
         password:data.password,
@@ -22,19 +23,19 @@ export const adduserdata=(data)=>{
     })
 }
 export const getadmindata=()=>{
-    return axios.get(`http://localhost:3008/admindata`)
+    return axios.get(`https://backend1-three.vercel.app/admindata`)
  }
 
   export const singleuser=(data,id,date)=>{
     console.log("date",data)
      if(id){
         let newDates = [...date,data]
-        return axios.patch(`http://localhost:3008/singleuser/${id}`,{
+        return axios.patch(`https://backend1-three.vercel.app/singleuser/${id}`,{
             dates:newDates
        
     })
      } else{
-        return axios.post(`http://localhost:3008/singleuser`,{
+        return axios.post(`https://backend1-three.vercel.app/singleuser`,{
             name:data.name,
             email:data.email,
             dates:[data.dates[data.dates.length-1]]
@@ -43,8 +44,8 @@ export const getadmindata=()=>{
   }
 
   export const getsingleuser=()=>{
-    return axios.get(`http://localhost:3008/singleuser`)
+    return axios.get(`https://backend1-three.vercel.app/singleuser`)
  }
  export const getsingleuserbyid=(id)=>{
-    return axios.get(`http://localhost:3008/singleuser/${id}`)
+    return axios.get(`https://backend1-three.vercel.app/singleuser/${id}`)
  }
