@@ -1,0 +1,15 @@
+.adminsignupdiv{
+    border: 1px solid red;
+   display: flex;
+  justify-content: space-between;
+  
+   background-color: #6d9ac4;
+   width: 90%;
+   margin: auto;
+   padding: 20px;
+}
+.formbox{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}

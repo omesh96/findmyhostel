@@ -1,0 +1,47 @@
+.navdiv{
+    width: 100%;
+    z-index: 1000;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+   position: fixed;
+   top: 0;
+   margin-bottom: 20px;
+   background-color: orange;
+   
+}
+.navdiv img{
+    width: 70px;
+   
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding: 5px;
+     
+   }
+   .flex button{
+    font-weight: 14px;
+    margin: 0px 10px;
+   }
+   .btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .companylogobox:hover{
+    cursor: pointer;
+   }
+   .companylogobox img{
+    width: 90px;
+}
+
+
+   @media all and (min-width:300px) and (max-width: 450px){
+    .companylogobox img{
+        width: 90px;
+    }
+   }

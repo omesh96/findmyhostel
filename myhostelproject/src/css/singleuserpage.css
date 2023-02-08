@@ -1,0 +1,18 @@
+ .singleuserdiv{
+    margin-top: 50px;
+    padding: 10px;
+ }
+ .singleuserimg{
+    text-align: center;
+    width: 50%;
+   margin: auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .singleuserimg img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+ }

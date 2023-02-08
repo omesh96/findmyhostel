@@ -1,0 +1,26 @@
+ .admindiv{
+   padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+ }
+
+ .adminuserdiv{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+ }
+ .adminuserdiv:hover{
+    cursor: pointer;
+ }
+
+ @media all and (min-width:300px) and (max-width: 450px){
+   .admindiv{
+      padding: 20px;
+      
+       grid-template-columns: repeat(2,1fr);
+       
+       gap: 20px;
+    }
+ }

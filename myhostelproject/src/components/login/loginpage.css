@@ -1,0 +1,16 @@
+
+ .logindiv{
+    padding: 40px;
+    margin-top: 30px;
+   
+ }
+
+ @media all and (min-width:300px) and (max-width: 450px){
+    .logindiv{
+        padding: 5px;
+    }
+    .accountbtn{
+      
+      margin-top: 72px;
+    }
+ }

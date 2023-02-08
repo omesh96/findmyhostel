@@ -1,0 +1,164 @@
+{
+  "admindata": [
+    {
+      "id": 1,
+      "name": "jfijf",
+      "email": "kjshdfjk",
+      "pass": "455",
+      "mobile": "",
+      "add": "fdj"
+    },
+    {
+      "name": "omeshdubey",
+      "email": "omeshdubey@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 2
+    },
+    {
+      "name": "Mohak Tandon",
+      "email": "mohakl@gmail.com",
+      "password": "111",
+      "address": "tanda",
+      "id": 3
+    },
+    {
+      "name": "bablu",
+      "email": "bablu@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 4
+    }
+  ],
+  "userdata": [
+    {
+      "id": 1,
+      "name": "jfijf",
+      "email": "kjshdfjk",
+      "pass": "455",
+      "mobile": "",
+      "add": "fdj"
+    },
+    {
+      "name": "rakesh",
+      "email": "rakesh@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 2
+    },
+    {
+      "name": "pablo",
+      "email": "pablo@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 3
+    },
+    {
+      "name": "dileep",
+      "email": "pablo@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 4
+    },
+    {
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 5
+    },
+    {
+      "name": "raka",
+      "email": "raka@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 6
+    },
+    {
+      "name": "sheru",
+      "email": "sheru@gmail.com",
+      "password": "111",
+      "address": "Village and post-Mamrejpur, Tanda",
+      "id": 7
+    }
+  ],
+  "singleuser": [
+    {
+      "name": "pablo",
+      "email": "pablo@gmail.com",
+      "dates": [
+        {
+          "mess": "no",
+          "checkindate": "2023-02-08",
+          "checkintime": "9:04:48 PM",
+          "checkoutdate": "2023-02-08",
+          "checkouttime": "9:04:53 PM"
+        },
+        {
+          "mess": "no",
+          "checkindate": "2023-02-08",
+          "checkintime": "9:08:40 PM",
+          "checkoutdate": "2023-02-08",
+          "checkouttime": "9:08:44 PM"
+        },
+        {
+          "mess": "yes",
+          "checkindate": "2023-02-10",
+          "checkintime": "12:18:36 PM",
+          "checkoutdate": "2023-02-10",
+          "checkouttime": "12:18:43 PM"
+        },
+        {
+          "mess": "yes",
+          "checkindate": "2023-02-11",
+          "checkintime": "12:28:16 PM",
+          "checkoutdate": "2023-02-11",
+          "checkouttime": "12:28:21 PM"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "raka",
+      "email": "raka@gmail.com",
+      "dates": [
+        {
+          "mess": "no",
+          "checkindate": "2023-02-08",
+          "checkintime": "9:10:37 PM",
+          "checkoutdate": "2023-02-08",
+          "checkouttime": "9:10:41 PM"
+        },
+        {
+          "mess": "yes",
+          "checkindate": "2023-02-10",
+          "checkintime": "9:11:29 PM",
+          "checkoutdate": "2023-02-10",
+          "checkouttime": "9:11:33 PM"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "rakesh",
+      "email": "rakesh@gmail.com",
+      "dates": [
+        {
+          "mess": "yes",
+          "checkindate": "2023-02-14",
+          "checkintime": "12:51:57 PM",
+          "checkoutdate": "2023-02-14",
+          "checkouttime": "12:52:02 PM"
+        },
+        {
+          "mess": "no",
+          "checkindate": "2023-02-15",
+          "checkintime": "12:52:32 PM",
+          "checkoutdate": "2023-02-15",
+          "checkouttime": "12:52:35 PM"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
