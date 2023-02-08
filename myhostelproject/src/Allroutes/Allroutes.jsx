@@ -20,8 +20,8 @@ const Allroutes = () => {
     <Route path="/adminsignup" element={<AdminSignup />}></Route>
     <Route path="/adminlogin" element={<AdminLogin />}></Route>
     <Route path="/admin" element={<PrivateRoute><Adminpage /> </PrivateRoute>}></Route>
-    <Route path="/user" element={<Userpage />}></Route>
-    <Route path='/singleuser' element={<Singleuserpage />}></Route>
+    <Route path="/user" element={<PrivateRoute><Userpage /></PrivateRoute>}></Route>
+    <Route path='/singleuser' element={<PrivateRoute><Singleuserpage /></PrivateRoute>}></Route>
    </Routes>
    </>
   )
